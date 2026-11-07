@@ -1,0 +1,18 @@
+[
+  {"question": "What are the two phases of a RAG system?", "expected": {"filename": "rag-basics.pdf", "page": 1}},
+  {"question": "How much overlap should consecutive chunks share?", "expected": {"filename": "rag-basics.pdf", "page": 2}},
+  {"question": "Why should chunking stay inside a single page?", "expected": {"filename": "rag-basics.pdf", "page": 2}},
+  {"question": "What two layers implement the refusal policy?", "expected": {"filename": "rag-basics.pdf", "page": 3}},
+  {"question": "Why should every chunk store its file name and page number?", "expected": {"filename": "citations-and-evaluation.pdf", "page": 1}},
+  {"question": "How can the app detect invented citations?", "expected": {"filename": "citations-and-evaluation.pdf", "page": 2}},
+  {"question": "How is retrieval quality measured with recall at k?", "expected": {"filename": "citations-and-evaluation.pdf", "page": 3}},
+  {"question": "Why would a scanned PDF produce no indexed text?", "expected": {"filename": "troubleshooting.pdf", "page": 1}},
+  {"question": "What happens if ingestion and queries use different embedding models?", "expected": {"filename": "troubleshooting.pdf", "page": 2}},
+  {"question": "How do I calibrate the distance threshold?", "expected": {"filename": "troubleshooting.pdf", "page": 3}},
+  {"question": "How many dimensions do all-MiniLM-L6-v2 vectors have?", "expected": {"filename": "vector-databases.pdf", "page": 1}},
+  {"question": "What does a cosine distance near one mean?", "expected": {"filename": "vector-databases.pdf", "page": 2}},
+  {"question": "Why use deterministic ids in Chroma?", "expected": {"filename": "vector-databases.pdf", "page": 3}},
+  {"question": "What is the capital of France?", "expected": null},
+  {"question": "How do I bake sourdough bread?", "expected": null},
+  {"question": "Who won the 2022 football World Cup?", "expected": null}
+]
